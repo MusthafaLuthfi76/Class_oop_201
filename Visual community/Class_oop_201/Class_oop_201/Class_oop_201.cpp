@@ -37,6 +37,7 @@ int main()
     mahasiswa mhs;
     matakuliah mk;
 
+    cout << "Input Data Mahasiswa" << endl;
     cout << "Masukkan Nama = ";
     cin >> mhs.nama;
     cout << "Masukkan NIM = ";
