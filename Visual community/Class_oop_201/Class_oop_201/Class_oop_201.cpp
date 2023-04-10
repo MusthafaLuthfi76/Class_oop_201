@@ -43,6 +43,7 @@ int main()
     cout << "Masukkan NIM = ";
     cin >> mhs.nim;
 
+    cout << "Input Data Mata Kuliah" << endl;
     mk.inputMK();
     mhs.tampil();
     mk.tampilMK();
