@@ -20,9 +20,9 @@ public :
     void inputMK() {
         cout << "\nMasukkan jumlah SKS = ";
         cin >> sks;
-        cout << "\nMasukkan Kode MK = ";
+        cout << "Masukkan Kode MK = ";
         cin >> kode;
-        cout << "\nMasukkan Nama MK = ";
+        cout << "Masukkan Nama MK = ";
         cin >> namaMK;
     }
     void tampilMK() {
