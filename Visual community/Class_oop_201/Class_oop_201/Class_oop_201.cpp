@@ -23,7 +23,7 @@ public :
         cout << "\nMasukkan Kode MK = ";
         cin >> kode;
         cout << "\nMasukkan Nama MK = ";
-        cin >> namaMk;
+        cin >> namaMK;
     }
     void tampilMK() {
         cout << "\nJumlah sks = " << sks;
@@ -34,7 +34,19 @@ public :
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs;
+    matakuliah mk;
+
+    cout << "Masukkan Nama = ";
+    cin >> mhs.nama;
+    cout << "Masukkan NIM = ";
+    cin >> mhs.nim;
+
+    mhs.tampil();
+    mk.inputMK();
+    mk.tampilMK();
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
