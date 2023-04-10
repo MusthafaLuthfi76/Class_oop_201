@@ -45,7 +45,9 @@ int main()
 
     cout << "\nInput Data Mata Kuliah" << endl;
     mk.inputMK();
+    cout << "\nData Mahasiswa = \n";
     mhs.tampil();
+    cout << "\n\nData Mata Kuliah =";
     mk.tampilMK();
 
 
