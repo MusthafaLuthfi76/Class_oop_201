@@ -1,6 +1,37 @@
 #include <iostream>
 using namespace std;
 
+class mahasiswa {
+public: 
+    int nim;
+    string nama;
+    void tampil() {
+        cout << "NIM = " << nim;
+        cout << "\nNama = " << nama;
+    }
+};
+
+class matakuliah {
+private :
+    int sks;
+    string kode;
+    string namaMK;
+public :
+    void inputMK() {
+        cout << "\nMasukkan jumlah SKS = ";
+        cin >> sks;
+        cout << "\nMasukkan Kode MK = ";
+        cin >> kode;
+        cout << "\nMasukkan Nama MK = ";
+        cin >> namaMk;
+    }
+    void tampilMK() {
+        cout << "\nJumlah sks = " << sks;
+        cout << "\nKode MK = " << kode;
+        cout << "\nNama MK = " << namaMK << endl;
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
